@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com/AferoCE/"/>
+
+  <project path="src_afero/af-conn" name="af-conn" remote="github" revision="master"/>
+  <project path="src_afero/af-conn/files" name="af-conn-files" remote="github" revision="master"/>
+  <project path="src_afero/af-ipc" name="af-ipc" remote="github" revision="master"/>
+  <project path="src_afero/af-util" name="af-util" remote="github" revision="master"/>
+  <project path="src_afero/af-edge" name="sama5-binaries-af-edge" remote="github" revision="master"/>
+  <project path="src_afero/af-sec" name="sama5-binaries-af-sec" remote="github" revision="master"/>
+  <project path="src_afero/attrd" name="attrd" remote="github" revision="master"/>
+  <project path="src_afero/otamgr" name="otamgr" remote="github" revision="master"/>
+  <project path="src_afero/hubby" name="sama5-binaries-hubby" remote="github" revision="master"/>
+  <project path="src_afero/beetle" name="beetle" remote="github" revision="master"/>
+
+  <project path="meta-afero" name="sama5-meta-afero" remote="github" revision="master"/>
+</manifest>
+
